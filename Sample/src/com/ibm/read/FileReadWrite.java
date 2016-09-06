@@ -21,12 +21,12 @@ public class FileReadWrite {
 		
 		FileInputStream fileIn = new FileInputStream("Json.json");
 		ObjectInputStream objectIn = new ObjectInputStream(fileIn);
-		Customer cust1 = (Customer)objectIn.readObject();
+		Customer cust3 = (Customer)objectIn.readObject();
 		
-		System.out.println(cust1.getCustName());
-		System.out.println(cust1.getAdress());
-		System.out.println("Test 1");
-		System.out.println("Changes from sreenivas1");
+		System.out.println(cust3.getCustName());
+		System.out.println(cust3.getAdress());
+		System.out.println("Test 3");
+		System.out.println("Changes from sreenivas2");
 		
 	}
 
