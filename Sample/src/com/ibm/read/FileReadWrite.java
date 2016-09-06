@@ -14,6 +14,7 @@ public class FileReadWrite {
 		
 		Customer cust = new Customer("Vijay","Koramangala");
 		
+		
 		FileOutputStream fileOut = new FileOutputStream("Json.json");
 		ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
 		objectOut.writeObject(cust);
@@ -25,7 +26,7 @@ public class FileReadWrite {
 		System.out.println(cust2.getCustName());
 		System.out.println(cust2.getAdress());
 		System.out.println("Test 2");
-		System.out.println("Changes from sreenivas");
+		System.out.println("Changes from sreenivas2");
 		
 	}
 
