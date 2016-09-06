@@ -25,6 +25,7 @@ public class FileReadWrite {
 		System.out.println(cust2.getCustName());
 		System.out.println(cust2.getAdress());
 		System.out.println("Test 2");
+		System.out.println("Changes from sreenivas");
 		
 	}
 
